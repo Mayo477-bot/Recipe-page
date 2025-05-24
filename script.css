@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Arial', sans-serif;
+    background-color: #f3e5d8;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.mycontainer{
+    max-width: 600px;
+    background-color: white;
+    border-radius: 20px;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.header-image{
+    width: 100%;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+h1{
+    font-size: 2.2em;
+    color: #312e2c;
+    margin-bottom: 15px;
+    font-family:'Outfit',sans-serif;
+}
+
+p{
+    color: #5f5f5f;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+h2{
+    font-size: 1.5em;
+    color: #7a3b2e;
+    margin-bottom: 15px;
+}
+
+.prep{
+    background-color: #fff5fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.prep ul{
+    list-style: ;
+    color: #5f5f5f;
+}
+
+.prep ul li{
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.prep ul li::before{
+    color: brown;
+    position: absolute;
+    left: 0;
+    font-size: 1.2em;
+}
+
+.prep ul li strong{
+    color: #312e2c;
+}
+
+.ingredients, .instructions{
+    color: #5f5f5f;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+.ingredients ul{
+    margin-left:25px;
+}
+
+.ingredients li, .instructions li{
+    margin-bottom: 10px;
+    padding-left: 30px;
+    position: relative;
+}
+.mayor1{
+    color:#7a3b2e;
+}
+.mayor{
+    color:black;
+}
+
+.ingredients li::before{
+    color: #7a3b2e;
+    position: absolute;
+    left: 15px;
+    font-size: 1.2em;
+    
+}
+
+
+hr{
+    border: 0;
+    border-top: 1px solid #e0e0e0;
+    margin: 20px ;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    color: #5f5f5f;
+}
+
+table tr{
+    border-bottom: 1px solid #e0e0e0;
+}
+
+table td{
+    padding: 10px ;
+}
+
+table .value{
+    text-align: center;
+    color: #7a3b2e;
+    font-weight: bold;
+    padding-right:80px;
+}
